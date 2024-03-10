@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)),url(https://images.pexels.com/photos/1062249/pexels-photo-1062249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+img{
+    height: 80px;
+    margin: 40px 50px;
+  
+    
+}
+
+.text{
+    margin-left: 59px;
+    top:50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+
+
+}
+.text p{
+    font-size: 50px;
+    font-weight: 600;
+}
+.text h1{
+    font-size: 64px;
+    font-weight: 600;
+
+}
+.text h1 span{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+button{
+    padding: 15px 50px;
+    border: solid 1px ;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    color: rgb(0, 187, 255);
+    font-weight: bold;
+    
+}
+button:hover{
+    background-color: transparent;
+    transition: all ease-in-out 0.40s;
+   
+    
+   
+}
+
+.launching-time{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.launching-time div span{
+    font-size: 25px;
+   
+}
